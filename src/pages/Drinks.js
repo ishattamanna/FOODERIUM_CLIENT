@@ -3,7 +3,7 @@ import React from 'react';
 const Drinks = () => {
     return (
         <div>
-            <h1>All drinks category would be hera</h1>
+            <h1>Mimo is here</h1>
         </div>
     );
 };
