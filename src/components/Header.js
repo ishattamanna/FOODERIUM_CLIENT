@@ -4,22 +4,20 @@ import { Link } from 'react-router-dom';
 const Header = () => {
 
 
-  const navItems = (
-    <>
-      <li>
-        <Link to={"/"}>Home</Link>
-      </li>
-      <li>
-        <Link to={"/meals"}>Meals</Link>
-      </li>
-      <li>
-        <Link to={"/drinks"}>Drink</Link>
-      </li>
-    </>
+  const navItems = <>
+    <li>
+      <Link to={"/"}>Home</Link>
+    </li>
+    <li>
+      <Link to={"/meals"}>Meals</Link>
+    </li>
+    <li>
+      <Link to={"/drinks"}>Drinks</Link>
+    </li>
+  </>
 
-  )
 
-  return (<div>
+  return (
     <div className="navbar bg-base-100">
       <div className="navbar-start">
         <div className="dropdown">
@@ -38,10 +36,10 @@ const Header = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Get Started</a>
+        <Link className="btn btn-neutral">Get Started</Link>
       </div>
     </div>
-  </div>);
+  );
 };
 
 export default Header;

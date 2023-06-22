@@ -3,12 +3,8 @@ import React from 'react';
 const Home = () => {
   return (
     <div className="hero min-h-screen"
-      style={{
-        backgroundImage:
-          "url(https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1600)"
-      }}
+      style={{ backgroundImage: "url(https://images.unsplash.com/photo-1504113888839-1c8eb50233d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhdXRpZnVsJTIwZm9vZHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" }}
     >
-
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-neutral-content">
         <div className="max-w-md">
@@ -19,7 +15,6 @@ const Home = () => {
       </div>
     </div>
   );
-
 };
 
 export default Home;

@@ -1,8 +1,8 @@
-import { createBrowserRouter } from 'react-router-dom'
-import Main from '../layout/Main'
-import Home from '../pages/Home'
-import MealsCategory from '../pages/MealsCategory';
-import Drinks from '../pages/Drinks';
+import { createBrowserRouter } from "react-router-dom";
+import Main from "../layout/Main"
+import Home from "../Pages/Home";
+import MealCategory from "../Pages/MealCategory";
+import Drinks from "../Pages/Drinks";
 
 const router = createBrowserRouter([
     {
@@ -15,14 +15,15 @@ const router = createBrowserRouter([
             },
             {
                 path: "/meals",
-                element: <MealsCategory></MealsCategory>
+                element: <MealCategory></MealCategory>,
             },
             {
                 path: "/drinks",
-                element: <Drinks></Drinks>
-            }
+                element: <Drinks></Drinks>,
+            },
         ],
     },
+
 ]);
 
 export default router;
