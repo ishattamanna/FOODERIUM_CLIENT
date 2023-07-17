@@ -10,7 +10,7 @@ const MealCategory = () => {
         fetch("http://localhost:5000/meals-collection")
             .then(res => res.json())
             .then((data) => {
-                console.log(data);
+
                 setMealsCategory(data);
             });
     }, []);
